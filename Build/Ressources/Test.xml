@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="MyData" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MyData">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="en-EN" type="xs:string" minOccurs="0" />
+                <xs:element name="fr-FR" type="xs:string" minOccurs="0" />
+                <xs:element name="ja-JP" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MyData>
+    <ID>START</ID>
+    <en-EN>Start</en-EN>
+    <fr-FR>Commencer</fr-FR>
+    <ja-JP>始</ja-JP>
+  </MyData>
+  <MyData>
+    <ID>QUIT</ID>
+    <en-EN>Quit</en-EN>
+    <fr-FR>Quitter</fr-FR>
+    <ja-JP>出発</ja-JP>
+  </MyData>
+</NewDataSet>
